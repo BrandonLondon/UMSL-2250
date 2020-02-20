@@ -1,0 +1,31 @@
+Before you Begin: Read "Chapter 21 (Binary Trees)"
+
+Grading Rubrics: (1) You must submit sufficient screenshots of your outputs along with the code. (2) Projects will be graded 20% for style/standards and 80% for proper execution. (3) Typically, on your projects, you will receive either very high points (100% or higher) or very low points (or a zero). This is because when your program runs and it runs correctly, you deserve full points (unless you have other logical errors). On the other hand, if your program does not run and has an incorrect and/or incomplete implementation, you get a very low point or even a zero.
+
+What to submit: (1) Submit your '.ccp' file and, (2) screenshot/s of output.
+
+Overview: This project is for testing the use of binary search trees and files. In this assignment, you will be using a binary search tree to gather information about the frequency of letter distributions in a file.
+
+Project: Your program will open a file containing a dump of text and build a binary tree for the frequencies of characters. For example, in the string “cadabcdaa”, the frequencies of characters are:
+a: 4
+b: 1
+c: 2
+d: 2
+
+And the corresponding binary tree will be:
+
+binary_tree_project.png 
+
+Notice that the tree is sorted by the order of characters and not the numbers. For example, since ‘c’ was observed first, it is made the root node.
+
+Output: Once your program is done, do an inorder traversal of the tree, outputting the data in the following format:
+a : 4
+b : 1
+c : 2
+d : 2
+
+Additional Notes:
+(1) Ignore any characters (including newlines) other than alphabets (a to z and A to Z). 
+(2) Ensure that any file handling errors are dealt with, such as the file not existing or a read not working.
+
+In case you had no idea where to start, below is a sample code structure:
