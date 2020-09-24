@@ -1,4 +1,4 @@
-# UMSL-2250
+# UMSL-2250-Programming-And-Data-Structures
 
 # Course Description:
 Discusses properties and implementation of abstract data types such as lists, trees, stacks and queues.  Introduces procedural and class abstraction, basic program architecture, use of interfaces, modular programming, and file processing.
