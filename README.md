@@ -14,3 +14,6 @@ Discusses properties and implementation of abstract data types such as lists, tr
 * Exceptions, function and class templates
 * Linked lists, linked list templates, variations of the linked list
 * Stacks, queues, dynamic queues
+* Recursion, solving problems with recursion, defining a problem recursively
+* Introduction to binary tree concepts and overview.
+* Standard template library (vectors, lists, stacks, queues), pros and cons
